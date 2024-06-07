@@ -29,6 +29,7 @@ spring:
             - Path=/RepairLogs/**
         - id: report-ms
           uri: lb://report-ms
+          predicates:
             - Path=/Reports/**
 
   
